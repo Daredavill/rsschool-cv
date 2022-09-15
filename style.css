@@ -1,0 +1,27 @@
+@font-face {
+    font-family: sans-serif;
+    src: url("assets/fonts/Montserrat-VariableFont_wght.ttf");
+    font-weight: 100;
+}
+@font-face {
+    font-family: sans-serif;
+    src: url("assets/fonts/Montserrat-Italic-VariableFont_wght.ttf");
+    font-weight: 100;
+
+}
+
+
+* {
+    box-sizing: border-box; /* вычитает бордер и паддинг из ширины и длинны блока*/
+  }
+
+  .container {       /*Задает ширину страницы 1440px*/
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .nav-list {         /*Позволяет сделать список горизонтальным*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
