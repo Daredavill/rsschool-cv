@@ -1,17 +1,26 @@
 @font-face {
     font-family: 'Montserrat';
     src: url("assets/fonts/Montserrat-VariableFont_wght.ttf");
-    font-weight: 400;
+    font-weight: 300;
 }
 html {
   scroll-behavior: smooth; 
 }
 
 #profile-photo {
-  border-radius: 100px;
+  border-radius: 20px;
   border: 1px solid rgba(106, 106, 106, 0.934);
   box-shadow: 5px rgb(0, 0, 0);
 }
+
+.section-title {
+  background-color: aqua;
+}
+#profile {
+  display:flex ;
+  flex-flow:row wrap;
+  align-items:center;
+   }
 
 body {
   font-family: 'montserrat';
@@ -36,16 +45,17 @@ body {
     justify-content: flex-end;
     align-items: center;
     list-style:none;
-
+    background-color: rgb(3, 70, 96);
+    height: 60px;
   }
+
   .nav-link {
     position:relative;
     padding: 0 15px;
     line-height: 500px;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    color:rgb(161, 0, 121);
+    font-size: 16px;
+    color:rgb(208, 208, 208);
 
   }
 
