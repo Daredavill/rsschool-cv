@@ -1,16 +1,25 @@
 @font-face {
-    font-family: sans-serif;
+    font-family: 'Montserrat';
     src: url("assets/fonts/Montserrat-VariableFont_wght.ttf");
-    font-weight: 100;
+    font-weight: 400;
 }
-@font-face {
-    font-family: sans-serif;
-    src: url("assets/fonts/Montserrat-Italic-VariableFont_wght.ttf");
-    font-weight: 100;
-
+html {
+  scroll-behavior: smooth; 
 }
 
+#profile-photo {
+  border-radius: 100px;
+  border: 1px solid rgba(106, 106, 106, 0.934);
+  box-shadow: 5px rgb(0, 0, 0);
+}
 
+body {
+  font-family: 'montserrat';
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
 
 
 * {
@@ -26,4 +35,22 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    list-style:none;
+
+  }
+  .nav-link {
+    position:relative;
+    padding: 0 15px;
+    line-height: 500px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(161, 0, 121);
+
+  }
+
+  .nav-link:hover {
+transition:3s;
+cursor: pointer;
+text-decoration: underline;
   }
