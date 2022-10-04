@@ -27,14 +27,17 @@ html {
 
 .section {
   width: 50%;
+  padding: 10px 100px;
+  
 }
 
 #profile-photo {
   border-radius: 20px;
-  border: 1px solid rgba(106, 106, 106, 0.934);
+  border: 3px solid rgb(4, 38, 58);
   box-shadow: 10px rgb(3, 2, 2);
-  width: 220px;
-  height: 160px;
+  width: 245px;
+  height: 180px;
+  
 }
 #course-logo {
 
@@ -53,8 +56,11 @@ html {
   text-transform: uppercase;
   letter-spacing: 5px;
   color: #124c61;
-  text-decoration: underline;
+  text-decoration:underline;
   background-color: none;
+}
+#name {
+text-decoration: none;
 }
 
 .link {
@@ -97,8 +103,8 @@ html {
 
   }
 
-  .nav-link:hover {
-transition:3s;
+  .nav-link:hover{
+transition: .3s;
 cursor: pointer;
 text-decoration: underline;
   }
@@ -133,4 +139,5 @@ text-decoration: underline;
   justify-content: space-between;
   background-color: rgb(3, 70, 96);
   height: 2px;
+  padding: 10px 20px 0 0;
 }
