@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Daredavill.github.io/rsschool-cv/cv
