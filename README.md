@@ -1,3 +1,3 @@
 # rsschool-cv
-https://GITHUB-Daredavill.github.io/rsschool-cv/cv
-https://GITHUB-Daredavill.github.io/rsschool-cv/
+https://daredavill.github.io/rsschool-cv/cv
+https://daredavill.github.io/rsschool-cv/
